@@ -1,0 +1,4 @@
+name,age,gender,city
+Rahul Kumar,20,Male,Ajmer
+Amit Kumar,21,Male,Raipur
+Neha,20,Female,Jaipur
