@@ -1,0 +1,80 @@
+User defined Functions
+-----------------------
+def funcName():
+    content
+
+def abc1():
+   print('hello')
+
+def abc2():
+   return 'hello'
+
+def abc3(x):
+   print(x*2)
+
+def abc4(x):
+   return x*2
+
+abc1()
+
+
+
+
+
+
+Comprehensions
+--------------
+1. Conditional Based
+	true_op if cond else false_op
+
+print('not divisable') if eval(input('Num:'))%7 else print('divisable')
+
+#cond?true op:false op
+
+2. Looping Based
+	a. list          []
+	b. dictionary    {}
+	c. set           {}
+	d. generator     ()
+                           [o/p for loop]
+			[o/p for loop if cond]
+
+k = [5,8,13,9,3]
+k2 = [i*2 for i in k]
+k3 = [i for i in k if i%2]
+k4 = [10,18,6]
+k4 = [i*2 for i in k if i%2 and i<10]
+
+d = {i:i**i for i in k}
+
+k1 = []
+for i in k:
+   k1 += [i*2]
+print(k1)
+
+k1 = []
+for i in k:
+  if i%2:
+   k1 += [i]
+print(k1)
+
+a = input('enter string:')
+cc = {i:a.count(i) for i in a}
+
+abcaaabde
+{'a':4, 'b':2, 'c':1, 'd':1, 'e':1}
+Not mystring
+
+abcabc
+{'a':2, 'b':2, 'c':2}
+mystring
+
+abccabc
+{'a':2,'b':2,'c':3}
+
+abcabcab
+{'a':3,'b':3,'c':2}
+not mystring
+
+
+3. Function Based
