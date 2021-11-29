@@ -1,0 +1,37 @@
+SUITES
+-----------
+
+1. Conditional
+	if-elif-else
+
+if cond:
+  -----
+  -----
+elif cond2:
+  -----
+elif cond3:
+  -----
+  if cond4:
+    ----
+    ----
+else:
+  -----
+
+
+2. Looping
+
+while cond:
+  ------
+
+
+for obj in collection:
+  ------
+
+range()
+
+for(init;cond;operation){
+ -----
+}
+
+
+3. Error Handling
