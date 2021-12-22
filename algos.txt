@@ -1,0 +1,4 @@
+Kernel Nearest Neighbors
+Decision Tree
+Random Forest
+Support Vector Machine
