@@ -1,0 +1,22 @@
+MACHINE LEARNING
+-----------------
+1. Supervised (Labelled Data)
+   a. Regression
+	A. Linear (Single/Multiple)
+	B. Polynomial
+	C. Decistion Trees/Random Forest Regression
+	D. Kernel Nearest Neighbors Regression
+	E. Support Vector Regression
+   b. Classification
+	A. Logistic Regression
+	B. DT/RF/Bagging/XGBoost
+	C. KNN
+	D. SVC (SVM)
+	E. Naive Bayes
+2. Unsupervised (Un-labelled Data)
+   a. Clustering
+	A. KMeans
+   b. Recommender Systems
+
+3. Reinforcement (Spontaneous Actions)
+4. Semi-supervised (Supervised+Unsupervised)
